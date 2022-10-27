@@ -149,8 +149,7 @@
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
-    border-radius: 10px;
-    /* box-shadow: 1px 1px 2px 2px rgba(8, 184, 247 ,0.8); */
+    border-radius: 10px;    
 }
 
 /* page4 */
@@ -285,46 +284,6 @@
     border-radius: 10px;
 }
 
-/* box active  */
-/* .box-active {
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 70px;
-    margin-bottom: 100px;
-    line-height: 70px;
-}
-
-.box-active .choose-active {
-    margin-left: 90px;
-    border: none;
-    padding: 15px 35px;
-    background-image: linear-gradient(to bottom right ,#09C5F9, #045EE9);
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 10px;
-}
-.box-active .list {
-    margin-left: 20px;
-    margin-top: 30px;
-    line-height: 50px;
-    font-weight: 600;
-    list-style-type: circle;
-}
-.box-active .price {
-    font-size: 35px;
-    margin-left: 40px;
-    margin-top: 100px;
-}
-.box-active .price span {
-    color: #969797;
-}
-.box-active .cancel {
-    font-weight: 600;
-    margin-left: 110px;
-} */
-
 /* page6 */
 
 .page6 {
@@ -369,7 +328,6 @@
 }
 
 .cards-all .name {
-    /* border: #045EE9 2px solid; */
     margin-left: 100px;
     margin-top: -60px;
 }
@@ -473,4 +431,410 @@
     font-size: 15px;
     color: #969797;
     padding-bottom: 50px;
+}
+
+@media screen and (max-width:900px) {
+    
+    .navbar-container .nav-logo {
+        margin-left: auto;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .navlist{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        list-style-type: none;
+        text-align: center;
+        margin-left: 0px;   
+        margin-right: 0px;
+        margin-top: 30px; 
+    }
+    .nav-button button{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-left: auto;
+        margin-top: 10px;
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    
+    /* page1 */
+    
+    .rightside img{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    /* leftside */
+    
+    .leftside h1{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .leftside p{
+        position: relative;
+        left: 0px;
+        margin-top: 10px;
+        margin-right: 0px;
+        line-height: 20px;    
+        text-align: center;    
+    }
+    .leftside button {
+        position: relative;
+        top: 20px;
+        left: 0px;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 25px;
+        font-size: 13px;
+        font-weight: 300;        
+    }
+    
+    /* page2 */
+    
+    .page2{
+        margin-top: 30px;
+    }
+    .leftside2 img{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    /* rightside */
+    
+    .rightside2 h1{
+        margin-left: 0px;
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .rightside2 p{
+        margin-left: 0px;
+        margin-top: 20px;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 0px;
+        line-height: 20px;    
+        text-align: center;    
+    }
+    .rightside2 button {
+        margin-left: 0px;
+        margin-top: 20px;       
+        position: relative;
+        top: 20px;
+        left: 0px;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 25px;
+        font-size: 13px;
+        font-weight: 300;        
+    }
+    
+    /* page3 */
+    
+    .page3{
+        margin-top: 30px;
+    }
+    .rightside3 .bg3{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    /* leftside */
+    
+    .leftside3 h1{        
+        position: relative;
+        left: 0px;
+        top: 20px;
+        margin-right: 0px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .leftside3 p {        
+        position: relative;
+        left: 0px;
+        top: 20px;
+        margin-top: 10px;
+        margin-right: 0px;
+        line-height: 20px;    
+        text-align: center;    
+    }
+    .leftside3 button {
+        position: relative;
+        top: 40px;
+        left: 0px; 
+        display: block;
+        margin: 0 auto;
+        padding: 10px 25px;
+        font-size: 13px;
+        font-weight: 300;  
+    }
+    
+    /* page4 */
+    
+    .page4{
+        margin-top: 30px;
+    }
+    .page4 h1{         
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .page4 .description4{        
+        position: relative;
+        left: 0px;
+        top: 20px;
+        margin-right: 0px;
+        line-height: 20px;    
+        text-align: center;    
+    }
+    
+    /* cards */
+    
+    .content {
+        position: relative;
+        left: 0px;
+        top: 50px;
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        column-gap: 0px;
+    }
+    .card img{
+        margin-top: 20px;
+    }
+    .content2{
+        position: relative;
+        left: 0px;
+        top: 50px;
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        column-gap: 0px;
+    }
+
+    /* page5 */
+    
+    .page5 {
+        margin-top: 80px;    
+    }
+    .page5 .heading{
+        text-align: center;
+        padding: 0px;
+        padding-top: 40px;
+    }
+    
+    /* cards  */
+    
+    .Package {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        column-gap: 10px;
+        margin-top: 50px;
+        padding: 10px;
+        
+    }
+    .box {
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 0px;
+        margin-bottom: 40px;
+        line-height: 60px;
+    }
+    .box h1 {
+        font-size: 30px;
+    }
+    .box p {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+    .list {
+        margin-left: 40px;
+        margin-top: 20px;
+        line-height: 40px;
+    }
+    .box .price {
+        font-size: 35px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    
+    .box .cancel {
+        font-weight: 600;
+        margin-left: 110px;
+    }
+    .box .choose-active {
+        margin-bottom: 40px;
+    }
+    
+    /* page6 */
+    
+    .page6 {
+        margin-top: 30px ;
+    }
+    .page6 h1 {
+        font-size: 30px;
+    }
+    .page6 .sub{
+        position: relative;
+        left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        padding: 10px   ;
+    }
+    
+    /* cards */
+    .cont {
+        margin-top: 20px;
+    }
+  
+    .top2{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .bottom2{
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .cont{
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: 0px;
+    } 
+    
+    /* page7 */
+    
+    .page7 {
+        background-size: 100% ;
+        position: relative;
+        padding: 20px;
+        top: 20px;
+    }
+    .page7 h1 {
+        text-align: center;
+        font-size: 25px; 
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .heading p {
+        color: #1f1f1f;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+    
+    }
+    .heading button {
+        position: relative;
+        top: 20px;
+        display: block;
+        margin: 0 auto;
+        color: #045EE9;
+        border: #045EE9 1px solid;
+    }
+    
+    /* page7 */
+    
+    .footers{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 80px;
+        left: 0px;
+    }
+    .footer-logo .bottom-logo {
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-logo p {
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 0px;
+        line-height: 20px;    
+    }
+    .menu {
+        position: relative;
+        align-items: center;
+        text-align: center;
+        left: 0px;
+        top: 10px;
+        font-size: 17px;
+    }
+    
+    .links {
+        position: relative; 
+        align-items: center;
+        text-align: center;
+        left: 0px;
+        font-size: 17px;
+        top: 0px;
+    }
+    .overview {
+        position: relative; 
+        align-items: center;
+        text-align: center;
+        left: 0px;
+        font-size: 17px;
+        top: 0px;
+    }
+    .Social-Media{
+        position: relative;
+        align-items: center;
+        text-align: center;
+        left: 0px;
+        top: 0px;
+    }
+    .footer-logos {
+        margin-top: 10px;
+        height: 35px ;
+    }
+    .footers .list {
+        line-height: 25px;
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    
 }
