@@ -4,6 +4,9 @@
     outline: 0;
     font-family: "Open Sans";
 }
+body{
+    overflow-x: hidden;
+}
 .navbar-container .nav-logo {
     width: 100px;
     margin-left: 80px;
